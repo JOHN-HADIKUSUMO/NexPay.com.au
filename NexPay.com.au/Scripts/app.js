@@ -49,7 +49,7 @@ app.controller('HomeController', ['$scope', '$uibModal', 'dataService', function
 app.factory('dataService', ['$http', function ($http) {
     var dataService = {
         save: function (data) {
-            return $http.post('http://localhost/NexPay.com.au/API/PAYMENT/SAVE', data);
+            return $http.post('http://localhost:56246/API/PAYMENT/SAVE', data);
         }
     };
 
