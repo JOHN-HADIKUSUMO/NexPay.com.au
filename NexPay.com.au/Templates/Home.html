@@ -1,0 +1,55 @@
+﻿<div class="col-md-offset-3 col-md-6 order-md-1">
+    <h2 class="mb-3 text-center">Bank Payment</h2>
+    <form name="paymentForm" class="needs-validation" novalidate>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="bsbNo">BSB Number</label>
+                <input type="text" class="form-control" id="bsbNo" name="bsbNo" ng-pattern="/^[0-9]{3}-?[0-9]{3}$/" ng-model="bsbNo" placeholder="eg. 423612" value="" required>
+                <div class="invalid-feedback" ng-show="paymentForm.bsbNo.$dirty && !paymentForm.bsbNo.$valid">
+                    Valid BSB number is required.
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="accountNo">Account Number</label>
+                <input type="text" class="form-control" id="accountNo" name="accountNo" ng-pattern="/^[0-9]{6,10}$/" ng-model="accountNo" placeholder="eg. 72004352" value="" required>
+                <div class="invalid-feedback" ng-show="paymentForm.accountNo.$dirty && !paymentForm.accountNo.$valid">
+                    Valid Account number is required.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <label for="accountName">Account Name</label>
+                <input type="text" class="form-control" id="accountName" name="accountName" ng-pattern="/^[a-zA-Z\ ]{5,25}$/" ng-model="accountName" placeholder="eg. John Doe" value="" required>
+                <div class="invalid-feedback" ng-show="paymentForm.accountName.$dirty && !paymentForm.accountName.$valid">
+                    Account name is required.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <label for="accountName">Reference</label>
+                <input type="text" class="form-control" id="reference" name="reference" ng-model="reference" placeholder="eg. Billing Payment" value="" required>
+                <div class="invalid-feedback" ng-show="paymentForm.reference.$dirty && !paymentForm.reference.$valid">
+                    Reference is required.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="bsbNo">Payment Amount</label>
+                <input type="text" class="form-control" id="paymentAmount" name="paymentAmount" ng-pattern="/^((0?\.((0[1-9])|[1-9]\d))|([1-9]\d*(\.\d{2})?))$/" ng-model="paymentAmount" placeholder="eg. 250.75" value="" required>
+                <div class="invalid-feedback" ng-show="paymentForm.paymentAmount.$dirty && !paymentForm.paymentAmount.$valid">
+                    Valid amount is required.
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-3 text-right">
+
+                <button type="submit" ng-click="submitClick()" class="btn btn-primary" ng-disabled="(paymentForm.bsbNo.$pristine || (paymentForm.bsbNo.$dirty && !paymentForm.bsbNo.$valid))||(paymentForm.accountNo.$pristine || (paymentForm.accountNo.$dirty && !paymentForm.accountNo.$valid))||(paymentForm.accountName.$pristine||(paymentForm.accountName.$dirty && !paymentForm.accountName.$valid))||(paymentForm.reference.$pristine || (paymentForm.reference.$pristine && !paymentForm.reference.$valid))||(paymentForm.paymentAmount.$pristine || (paymentForm.paymentAmount.$dirty && !paymentForm.paymentAmount.$valid))">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+

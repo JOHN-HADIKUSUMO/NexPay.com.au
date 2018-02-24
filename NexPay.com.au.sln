@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.com.au", "NexPay.com.au\NexPay.com.au.csproj", "{23189F81-E1AB-4215-B050-320F5C04381B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.com.au.Business", "NexPay.com.au.Business\NexPay.com.au.Business.csproj", "{D6661668-BE6F-4968-97A4-2D4D8A6A7AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.com.au.Models", "NexPay.com.au.Models\NexPay.com.au.Models.csproj", "{B55FBAE0-676B-4A08-A7FB-E99FFA8CC5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.com.au.UnitTest", "NexPay.com.au.UnitTest\NexPay.com.au.UnitTest.csproj", "{F748347B-E570-4DF3-A17E-9BF892A76F2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23189F81-E1AB-4215-B050-320F5C04381B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23189F81-E1AB-4215-B050-320F5C04381B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23189F81-E1AB-4215-B050-320F5C04381B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23189F81-E1AB-4215-B050-320F5C04381B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6661668-BE6F-4968-97A4-2D4D8A6A7AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6661668-BE6F-4968-97A4-2D4D8A6A7AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6661668-BE6F-4968-97A4-2D4D8A6A7AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6661668-BE6F-4968-97A4-2D4D8A6A7AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55FBAE0-676B-4A08-A7FB-E99FFA8CC5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55FBAE0-676B-4A08-A7FB-E99FFA8CC5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55FBAE0-676B-4A08-A7FB-E99FFA8CC5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55FBAE0-676B-4A08-A7FB-E99FFA8CC5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F748347B-E570-4DF3-A17E-9BF892A76F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F748347B-E570-4DF3-A17E-9BF892A76F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F748347B-E570-4DF3-A17E-9BF892A76F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F748347B-E570-4DF3-A17E-9BF892A76F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
