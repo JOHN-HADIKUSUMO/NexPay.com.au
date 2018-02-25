@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.com.au.Models", "Nex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.com.au.UnitTest", "NexPay.com.au.UnitTest\NexPay.com.au.UnitTest.csproj", "{F748347B-E570-4DF3-A17E-9BF892A76F2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexPay.com.au.Jasmine", "NexPay.com.au.Jasmine\NexPay.com.au.Jasmine.csproj", "{D27A3913-4C3A-4AD1-B246-59858CA6AD44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F748347B-E570-4DF3-A17E-9BF892A76F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F748347B-E570-4DF3-A17E-9BF892A76F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F748347B-E570-4DF3-A17E-9BF892A76F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27A3913-4C3A-4AD1-B246-59858CA6AD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27A3913-4C3A-4AD1-B246-59858CA6AD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27A3913-4C3A-4AD1-B246-59858CA6AD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27A3913-4C3A-4AD1-B246-59858CA6AD44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
